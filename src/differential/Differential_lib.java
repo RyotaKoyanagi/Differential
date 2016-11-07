@@ -12,14 +12,14 @@ public class Differential_lib implements Differential_if{
 	@Override
 	public double getRx() {
 		// TODO Auto-generated method stub
-		//理論値計算関数
+		//理論値関数
 		return 2*this.a;
 	}
 
 	@Override
 	public double getDx() {
 		// TODO Auto-generated method stub
-		//計算値計算関数
+		//計算値関数
 		return (Math.pow(this.a+this.h,2)-Math.pow(this.a,2))/h;
 	}
 
